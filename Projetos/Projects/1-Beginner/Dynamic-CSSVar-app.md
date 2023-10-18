@@ -1,49 +1,48 @@
-# Dynamic CSS Variables
+# Variáveis CSS Dinâmicas
 
-**Tier:** 1-Beginner
+**Nível:** 1-Iniciante
 
-CSS variables are a powerful tool that lets the developer associate a symbolic
-name with a value, and then use that name in the stylesheet wherever that
-value is required. The advantage is that when a change to that value is 
-required it only needs to change in the CSS variable definition rather than in
-the many spots it may be used.
+As variáveis CSS são uma ferramenta poderosa que permite ao desenvolvedor associar um
+nome simbólico a um valor e, em seguida, usar esse nome na folha de estilos onde aquele
+valor é necessário. A vantagem é que quando uma mudança nesse valor é 
+necessária, ela só precisa mudar na definição da variável CSS em vez de 
+nos muitos lugares em que ela pode ser usada.
 
-What can make this even more powerful is to dynamically change the value of a
-CSS variable at runtime.
+O que pode tornar isso ainda mais poderoso é mudar dinamicamente o valor de uma
+variável CSS em tempo de execução.
 
-The goal of this app is to dynamically change the background color of text boxes
-based to let you gain experience using both CSS variables and dynamically 
-changing them from within the app.
+O objetivo deste aplicativo é alterar dinamicamente a cor de fundo das caixas de texto
+para que você ganhe experiência usando ambas as variáveis CSS e mudando-as dinamicamente 
+de dentro do aplicativo.
 
-## User Stories
+## Histórias do Usuário
 
--   [ ] User can see three two boxes to be used to enter a User ID and Password
-along with 'Cancel' and 'Login' buttons underneath them. The default background
-color of the text boxes is white.
--   [ ] User can enter a user id and password into the text boxes.
--   [ ] User can click the 'Login' button to validate the user id and password.
--   [ ] User can see a warning message if one or both of the text boxes contains
-spaces and the background color of the empty text box will change to light
-yellow.
--   [ ] User can see a warning message if the user id doesn't match 'testuser'
-and the background color of the text box will change to light red.
--   [ ] User can see a warning message if the password doesn't match 'mypassword'
-and the background color of the text box will change to light red.
--   [ ] User can click the 'Cancel' button to clear the text boxes and reset
-their background colors to white.
+- [ ] O usuário pode ver três caixas para serem usadas para inserir um ID de usuário e uma senha
+junto com os botões 'Cancelar' e 'Login' abaixo delas. A cor de fundo padrão
+das caixas de texto é branca.
+- [ ] O usuário pode inserir um ID de usuário e uma senha nas caixas de texto.
+- [ ] O usuário pode clicar no botão 'Login' para validar o ID de usuário e a senha.
+- [ ] O usuário pode ver uma mensagem de aviso se uma ou ambas as caixas de texto contêm
+espaços e a cor de fundo da caixa de texto vazia mudará para amarelo claro.
+- [ ] O usuário pode ver uma mensagem de aviso se o ID do usuário não corresponder a 'testuser'
+e a cor de fundo da caixa de texto mudará para vermelho claro.
+- [ ] O usuário pode ver uma mensagem de aviso se a senha não corresponder a 'mypassword'
+e a cor de fundo da caixa de texto mudará para vermelho claro.
+- [ ] O usuário pode clicar no botão 'Cancelar' para limpar as caixas de texto e redefinir
+suas cores de fundo para branco.
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User can see the color of the text box border change when an error is
-detected
--   [ ] User can see the size and font of the contents of the text box change
-when an error is detected.
+- [ ] O usuário pode ver a cor da borda da caixa de texto mudar quando um erro é
+detectado
+- [ ] O usuário pode ver o tamanho e a fonte do conteúdo da caixa de texto mudar
+quando um erro é detectado.
 
-## Useful links and resources
+## Links e Recursos Úteis
 
-- [Custom properties (--*): CSS variables (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/--*)
-- [CSSStyleDeclaration (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration)
+- [Propriedades personalizadas (--*): variáveis CSS (MDN)](https://developer.mozilla.org/pt-BR/docs/Web/CSS/--*)
+- [CSSStyleDeclaration (MDN)](https://developer.mozilla.org/pt-BR/docs/Web/API/CSSStyleDeclaration)
 
-## Example projects
+## Projetos Exemplo
 
-[Dynamic CSS Variables](https://codepen.io/gordawn/pen/oOWBXX)
+[Variáveis CSS Dinâmicas](https://codepen.io/gordawn/pen/oOWBXX)
