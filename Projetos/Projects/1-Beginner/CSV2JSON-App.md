@@ -1,59 +1,46 @@
 # CSV2JSON
 
-**Tier:** 1-Beginner
+**Nível:** 1-Iniciante
 
-In the [JSON2CSV](./JSON2CSV-App.md) application you translated JSON 
-to a comma separated value (CSV) format. The objective of CSV2JSON is to 
-reverse that process by converting a block of CSV text to JSON.
+No aplicativo [JSON2CSV](./JSON2CSV-App.md), você converteu JSON para um formato de valor separado por vírgula (CSV). O objetivo do CSV2JSON é inverter esse processo, convertendo um bloco de texto CSV para JSON.
 
-In CSV2JSON you'll start by copying the JSON2CSV app you created and then
-modify it to allow CSV to JSON conversion as well the JSON to CSV conversion
-that's already present. In additional to providing a useful function, this
-challenge will also give you practice in modifying existing applications to
-add new functionality.
+No CSV2JSON, você começará copiando o aplicativo JSON2CSV que criou e depois modificará para permitir a conversão de CSV para JSON, bem como a conversão de JSON para CSV que já está presente. Além de fornecer uma função útil, esse desafio também lhe dará prática em modificar aplicativos existentes para adicionar novas funcionalidades.
 
-### Constraints ###
+### Restrições ###
+- Leia atentamente as histórias dos usuários abaixo. Algumas das funcionalidades criadas para JSON2CSV precisarão ser modificadas.
+- Você não pode usar bibliotecas ou pacotes projetados para realizar este tipo de conversão.
+- Estruturas JSON aninhadas não são suportadas.
 
-- Read the user stories below carefully. Some of the functionality created
-for JSON2CSV will need to be modified.
-- You may not use any libraries or packages designed to perform this type of
-conversion.
-- Nested JSON structures are not supported.
+## Histórias do Usuário
+- [ ] O usuário pode colar a sintaxe CSV em uma caixa de texto
+- [ ] O usuário pode clicar em um botão 'Converter para JSON' para validar a caixa de texto CSV e convertê-la para JSON
+- [ ] O usuário pode ver uma mensagem de aviso se a caixa de texto CSV estiver vazia ou se não contiver um CSV válido
+- [ ] O usuário pode ver o CSV convertido na caixa de texto JSON
 
-## User Stories
+### Histórias já implementadas no JSON2CSV 
+- [ ] O usuário pode colar a sintaxe JSON em uma caixa de texto
+- [ ] O usuário pode clicar em um botão 'Converter para CSV' para validar a caixa de texto JSON e convertê-la para CSV
+- [ ] O usuário pode ver uma mensagem de aviso se a caixa de texto JSON estiver vazia ou se não contiver um JSON válido
+- [ ] O usuário pode clicar em um botão 'Limpar' para limpar o conteúdo de ambas as caixas de texto JSON e CSV.
 
--   [ ] User can paste CSV syntax into a text box
--   [ ] User can click a 'Convert to JSON' button to validate the CSV text box and convert it to JSON
--   [ ] User can see an warning message if the CSV text box is empty or if it doesn't contain valid CSV
--   [ ] User can see the converted CSV in the JSON text box
+## Funcionalidades Bônus
+- [ ] O usuário pode inserir o caminho para o arquivo CSV no sistema de arquivos local em uma caixa de texto
+- [ ] O usuário pode clicar em um botão 'Abrir CSV' para carregar o arquivo contendo o CSV na caixa de texto
+- [ ] O usuário pode ver uma mensagem de aviso se o arquivo CSV não for encontrado
+- [ ] O usuário pode clicar em um botão 'Salvar CSV' para salvar o arquivo CSV no arquivo inserido na mesma caixa de texto usada para abrir o arquivo CSV
+- [ ] O usuário pode ver uma mensagem de aviso se a caixa de texto CSV estiver vazia ou se a operação de salvar falhar.
+- [ ] O usuário pode inserir o caminho para o arquivo JSON no sistema de arquivos local em uma caixa de texto
+- [ ] O usuário pode clicar em um botão 'Abrir JSON' para carregar o arquivo contendo o JSON na caixa de texto
+- [ ] O usuário pode ver uma mensagem de aviso se o arquivo JSON não for encontrado
+- [ ] O usuário pode clicar em um botão 'Salvar JSON' para salvar o arquivo JSON no arquivo inserido na mesma caixa de texto usada para abrir o arquivo JSON
+- [ ] O usuário pode ver uma mensagem de aviso se a caixa de texto JSON estiver vazia ou se a operação de salvar falhar.
 
-### Stories already implemented in JSON2CSV 
--   [ ] User can paste JSON syntax into a text box
--   [ ] User can click a 'Convert to CSV' button to validate the JSON text box and convert it to CSV
--   [ ] User can see an warning message if the JSON text box is empty or if it doesn't contain valid JSON
--   [ ] User can click a 'Clear' button to clear the contents of both the JSON and CSV text boxes.
+## Links e recursos úteis
+- [Valores Separados por Vírgula (CSV)](https://pt.wikipedia.org/wiki/Comma-separated_values)
+- [Notação de Objeto JavaScript (JSON)](https://www.json.org/)
+- [Salvando um arquivo com JS puro](https://codepen.io/davidelrizzo/pen/cxsGb)
+- [Lendo arquivos em Javascript](https://codepen.io/jduprey/details/xbale)
 
-## Bonus features
-
--   [ ] User can enter the path to the CSV file on the local file system in a text box
--   [ ] User can click a 'Open CSV' button to load file containing the CSV into the text box
--   [ ] User can see a warning message if the CSV file is not found
--   [ ] User can click a 'Save CSV' button to save the CSV file to the file entered in the same text box used for opening the CSV file
--   [ ] User can see a warning message if the CSV text box is empty or if the save operation failed.
--   [ ] User can enter the path to the JSON file on the local file system in a text box
--   [ ] User can click a 'Open JSON' button to load file containing the JSON into the text box
--   [ ] User can see a warning message if the JSON file is not found
--   [ ] User can click a 'Save JSON' button to save the JSON file to the  file entered in the same text box used for opening the JSON file
--   [ ] User can see a warning message if the JSON text box is empty or if the save operation failed.
-
-## Useful links and resources
-
-- [Comma Separated Values (CSV)](https://en.wikipedia.org/wiki/Comma-separated_values)
-- [JavaScript Object Notation (JSON)](https://www.json.org/)
-- [Saving a file with pure JS](https://codepen.io/davidelrizzo/pen/cxsGb)
-- [Reading files in Javascript](https://codepen.io/jduprey/details/xbale)
-
-## Example projects
-
-- [CSV to JSON Converter](https://codepen.io/JFarrow/pen/CAwyo)
-- [JSV Converter](https://gpaiva00.github.io/json-csv)
+## Projetos Exemplo
+- [Conversor CSV para JSON](https://codepen.io/JFarrow/pen/CAwyo)
+- [Conversor JSV](https://gpaiva00.github.io/json-csv)
