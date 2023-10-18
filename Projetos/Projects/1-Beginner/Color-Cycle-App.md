@@ -1,41 +1,39 @@
-# ColorCycle
+# Ciclo de Cor
 
-**Tier:** 1-Beginner
+**Nível:** 1-Iniciante
 
-The use of color plays a major role in an applications User Interface and
-User Experience (UI/UX). ColorCycle seeks to help WebDev's better understand
-RBG colors by making small changes to a colored box over time.
+O uso da cor desempenha um papel importante na Interface e
+Experiência do Usuário (UI/UX) de uma aplicação. O Ciclo de Cor busca ajudar os WebDevs a entenderem melhor
+as cores RGB fazendo pequenas alterações em uma caixa colorida ao longo do tempo.
 
-This app draws a box filled with a user specified color and makes small changes
-over time also based on user input. In other words, from cycles through
-changes to the originally specified color. These changes allow the user to
-experience the visual impact different changes to the individual parts of
-an RGB color specification (e.g. `#000000` color code).
+Este aplicativo desenha uma caixa preenchida com uma cor especificada pelo usuário e faz pequenas alterações
+ao longo do tempo também com base na entrada do usuário. Em outras palavras, ele faz ciclos através
+das alterações na cor originalmente especificada. Essas mudanças permitem que o usuário
+experimente o impacto visual de diferentes alterações nas partes individuais de
+uma especificação de cor RGB (por exemplo, código de cor `#000000`).
 
-## User Stories
+## Histórias do Usuário
 
--   [ ] User can specify a starting fill color as a six hexadecimal standard
-        CSS color code in three individual components of two digits each - red,
-        blue, and green
--   [ ] User can specify an increment value for each color component that will
-        be added to that component every .25 second
--   [ ] User can see the box containing the fill color change every .25 seconds
--   [ ] User can only change the color components and their increments when
-        the app is stopped
--   [ ] User can start and stop the fill operation using a button whose name
-        changes to 'Start' when stopped and 'Stop' when started
--   [ ] User will receive an warning if something other than hexadecimal digits
-        are entered for the color components
+- [ ] O usuário pode especificar uma cor inicial como um código de cor padrão CSS hexadecimal de seis dígitos em três componentes individuais de dois dígitos cada - vermelho, azul e verde
+- [ ] O usuário pode especificar um valor de incremento para cada componente de cor que será
+        adicionado a esse componente a cada 0,25 segundo
+- [ ] O usuário pode ver a caixa contendo a cor do preenchimento mudar a cada 0,25 segundos
+- [ ] O usuário só pode alterar os componentes de cor e seus incrementos quando
+        o aplicativo está parado
+- [ ] O usuário pode iniciar e parar a operação de preenchimento usando um botão cujo nome
+        muda para 'Iniciar' quando parado e 'Parar' quando iniciado
+- [ ] O usuário receberá um aviso se algo diferente de dígitos hexadecimais
+        for inserido para os componentes de cor
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User can change the time interval between color changes
--   [ ] User can specify the color encoding format used from RGB to another format like HSL
+- [ ] O usuário pode alterar o intervalo de tempo entre as mudanças de cor
+- [ ] O usuário pode especificar o formato de codificação de cor usado de RGB para outro formato como HSL
 
-## Useful links and resources
+## Links e Recursos Úteis
 
-[CSS Color Codes](https://qhmit.com/css/css_color_codes.cfm)
+[Códigos de Cor CSS](https://qhmit.com/css/css_color_codes.cfm)
 
-## Example projects
+## Projetos Exemplo
 
-[CSS Color Changing Background](https://codepen.io/SoumyajitChand/pen/wjKVed)
+[CSS Mudança de Cor de Fundo](https://codepen.io/SoumyajitChand/pen/wjKVed)
