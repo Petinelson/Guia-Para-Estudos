@@ -1,23 +1,15 @@
-# IOT Mailbox Simulator
+# Simulador de Caixa de Correio IOT
 
-**Tier:** 1-Beginner
+**Nível:** 1-Iniciante
 
-The objective of the IOT Mailbox Simulator is to mimic how an Internet of Things
-(IOT) enabled physical mailbox might be used to notify you when "snail" mail 
-has arrived. In doing so it will provide you with experience using callbacks
-to communicate state between different components of an app that are dependent
-on one another.
+O objetivo do Simulador de Caixa de Correio IOT é imitar como uma caixa de correio física habilitada para Internet das Coisas (IOT) pode ser usada para notificá-lo quando a correspondência "tradicional" chegou. Ao fazer isso, ele fornecerá a você experiência no uso de callbacks para comunicar o estado entre diferentes componentes de um aplicativo que são dependentes um do outro.
 
-### Requirements & Constraints
+### Requisitos & Restrições
 
-- Even though this app is specified using Javascript concepts and terminology
-you are free to implement it in the language of your choice. 
+- Mesmo que este aplicativo seja especificado usando conceitos e terminologias de Javascript, você está livre para implementá-lo no idioma de sua escolha.
 
-- The following Javascript class is provided to start and stop the monitoring
-process, and to signal the app web page with the state of the mailbox door
-(open or closed) at preset intervals. Keep in mind that the interval you specify
-shouldn't exceed the time it normally takes to open or close the door or you
-might miss a delivery!
+- A seguinte classe Javascript é fornecida para iniciar e parar o processo de monitoramento e para sinalizar a página do aplicativo com o estado da porta da caixa de correio (aberta ou fechada) em intervalos predefinidos. Lembre-se de que o intervalo que você especificar não deve exceder o tempo que normalmente leva para abrir ou fechar a porta, ou você pode perder uma entrega!
+
 ```
 /**
  * Monitor the light levels inside an IOT enabled snail mailbox to detect
@@ -78,45 +70,45 @@ class IOTMailbox {
 };
 ```
 
-## User Stories
+## Histórias do Usuário
 
--   [ ] User can see a web page containing a control panel containing three
-buttons - 'Start Monitoring', 'Stop Monitoring', and 'Reset'.
--   [ ] User can see a notification panel where the mailbox status will be posted.
--   [ ] User can see a scrollable log panel where execution details describing 
-the apps operation and interface with the IOTMailbox instance will be posted.
--   [ ] User can click the 'Start Monitoring' button to begin receiving state
-notifications from the mailbox.
--   [ ] User can see a message added to the log panel when monitoring starts.
--   [ ] User can see a message added to the log panel for light level passed
-through the callback function. This should include the numerical light level
-and whether the door is open or closed.
--   [ ] User can see a message added to the notification panel when the door has
-been opened.
--   [ ] User can click the 'Stop Monitoring' button to stop receiving state
-notifications from the mailbox. 
--   [ ] User can see a message added to the log panel when monitoring stops.
+-   [ ] O usuário pode ver uma página da web contendo um painel de controle com três
+botões - 'Iniciar Monitoramento', 'Parar Monitoramento' e 'Redefinir'.
+-   [ ] O usuário pode ver um painel de notificações onde o status da caixa de correio será exibido.
+-   [ ] O usuário pode ver um painel de registro rolável onde os detalhes da execução que descrevem 
+a operação do aplicativo e a interface com a instância IOTMailbox serão postados.
+-   [ ] O usuário pode clicar no botão 'Iniciar Monitoramento' para começar a receber notificações de estado
+da caixa de correio.
+-   [ ] O usuário pode ver uma mensagem adicionada ao painel de registro quando o monitoramento começa.
+-   [ ] O usuário pode ver uma mensagem adicionada ao painel de registro para o nível de luz passado
+através da função de retorno (callback). Isso deve incluir o nível de luz numérico
+e se a porta está aberta ou fechada.
+-   [ ] O usuário pode ver uma mensagem adicionada ao painel de notificações quando a porta foi
+aberta.
+-   [ ] O usuário pode clicar no botão 'Parar Monitoramento' para parar de receber notificações de estado
+da caixa de correio.
+-   [ ] O usuário pode ver uma mensagem adicionada ao painel de registro quando o monitoramento para.
 
-## Bonus features
+## Recursos Extras
 
--   [ ] User can see the 'Start Monitoring' button disabled until monitoring is
-stopped.
--   [ ] User can see the 'Stop Monitoring' button disabled until monitoring is
-started.
--   [ ] User can see an field in the control panel allowing the length of the
-monitoring interval to be specified. 
--   [ ] User can see a message added to the notification panel if the door is
-left open.
--   [ ] User can hear an audible alert when the door is opened.
+-   [ ] O usuário pode ver o botão 'Iniciar Monitoramento' desativado até que o monitoramento seja
+parado.
+-   [ ] O usuário pode ver o botão 'Parar Monitoramento' desativado até que o monitoramento seja
+iniciado.
+-   [ ] O usuário pode ver um campo no painel de controle permitindo que a duração do
+intervalo de monitoramento seja especificado.
+-   [ ] O usuário pode ver uma mensagem adicionada ao painel de notificações se a porta permanecer
+aberta.
+-   [ ] O usuário pode ouvir um alerta audível quando a porta é aberta.
 
-## Useful links and resources
+## Links e recursos úteis
 
-- [Snail Mail (Wikipedia)](https://en.wikipedia.org/wiki/Snail_mail)
-- [Internet of Things (Wikipedia)](https://en.wikipedia.org/wiki/Internet_of_things)
-- [IOT Mailbox: An Introduction](https://iotexpert.com/2018/08/13/iot-mailbox-an-introduction/)
-- [What the Heck is a Callback?](https://codeburst.io/javascript-what-the-heck-is-a-callback-aba4da2deced)
+- [Correio Tradicional (Wikipedia)](https://en.wikipedia.org/wiki/Snail_mail)
+- [Internet das Coisas (Wikipedia)](https://en.wikipedia.org/wiki/Internet_of_things)
+- [Caixa de Correio IOT: Uma Introdução](https://iotexpert.com/2018/08/13/iot-mailbox-an-introduction/)
+- [O que diabos é um Callback?](https://codeburst.io/javascript-what-the-heck-is-a-callback-aba4da2deced)
 - [window.setInterval (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval)
 
-## Example projects
+## Projetos Exemplo
 
 N/a
