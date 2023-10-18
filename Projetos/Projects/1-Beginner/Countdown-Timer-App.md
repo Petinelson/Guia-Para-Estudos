@@ -1,61 +1,58 @@
-# Countdown Timer
+# Cronômetro de Contagem Regressiva
 
-**Tier:** 1-Beginner
+**Nível:** 1-Iniciante
 
-We all have important events we look forward to in life, birthdays,
-anniversaries, and holidays to name a few. Wouldn't it be nice to have an app
-that counts down the months, days, hours, minutes, and seconds to an event?
-Countdown Timer is just that app!
+Todos nós temos eventos importantes que esperamos na vida, aniversários,
+aniversários e feriados para citar alguns. Não seria bom ter um aplicativo
+que conta os meses, dias, horas, minutos e segundos para um evento?
+Cronômetro de Contagem Regressiva é exatamente esse aplicativo!
 
-The objective of Countdown Timer is to provide a continuously decrementing
-display of the he months, days, hours, minutes, and seconds to a user entered
-event.
+O objetivo do Cronômetro de Contagem Regressiva é fornecer uma exibição constantemente decrescente
+dos meses, dias, horas, minutos e segundos para um evento inserido pelo usuário.
 
-### Constraints
+### Restrições
 
-- Use only builtin language functions for your calculations rather than relying
-on a library or package like [MomentJS](https://momentjs.com/). This assumes,
-of course, that the language of your choice has adequate date and time
-manipulation functions built in.
-- You may not use any code generators such as the 
-[Counting Down To](https://countingdownto.com/) site. You should develop your
-own original implementation. 
+- Use apenas funções nativas da linguagem para seus cálculos em vez de confiar
+em uma biblioteca ou pacote como [MomentJS](https://momentjs.com/). Isso assume,
+claro, que a linguagem de sua escolha tem funções de manipulação de data e tempo adequadas incorporadas.
+- Você não pode usar nenhum gerador de código como o site 
+[Counting Down To](https://countingdownto.com/). Você deve desenvolver sua
+própria implementação original.
 
-## User Stories
+## Histórias do Usuário
 
--   [ ] User can see an event input box containing an event name field, an
-date field, an optional time, and a 'Start' button.
--   [ ] User can define the event by entering its name, the date it is
-scheduled to take place, and an optional time of the event. If the time is 
-omitted it is assumed to be at Midnight on the event date in the local time
-zone.
--   [ ] User can see a warning message if the event name is blank.
--   [ ] User can see a warning message if the event date or time are incorrectly
-entered. 
--   [ ] User can see a warning message if the time until the event data and time
-that has been entered would overflow the precision of the countdown timer.
--   [ ] User can click on the 'Start' button to see the countdown timer start
-displaying the days, hours, minutes, and seconds until the event takes place.
--   [ ] User can see the elements in the countdown timer automatically
-decrement. For example, when the remaining seconds count reaches 0 the remaining
-minutes count will decrement by 1 and the seconds will start to countdown from 59. This progression must take place from seconds all the way up to the remaining days position in countdown display. 
+- [ ] O usuário pode ver uma caixa de entrada de evento contendo um campo de nome do evento, um
+campo de data, um horário opcional e um botão 'Iniciar'.
+- [ ] O usuário pode definir o evento inserindo seu nome, a data em que está
+agendado para acontecer, e um horário opcional do evento. Se o horário for
+omitido, assume-se que seja à meia-noite na data do evento no fuso horário local.
+- [ ] O usuário pode ver uma mensagem de aviso se o nome do evento estiver em branco.
+- [ ] O usuário pode ver uma mensagem de aviso se a data ou hora do evento forem inseridas
+incorretamente.
+- [ ] O usuário pode ver uma mensagem de aviso se o tempo até a data e hora do evento
+que foi inserido ultrapassasse a precisão do cronômetro.
+- [ ] O usuário pode clicar no botão 'Iniciar' para ver o cronômetro iniciar
+a exibição dos dias, horas, minutos e segundos até o evento acontecer.
+- [ ] O usuário pode ver os elementos no cronômetro automaticamente
+decrementar. Por exemplo, quando a contagem de segundos restantes chegar a 0, a contagem de 
+minutos restantes decrementará em 1 e os segundos começarão a contar regressivamente a partir de 59. Esse progresso deve ocorrer de segundos até a posição de dias restantes na exibição da contagem regressiva.
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User can save the event so that it persists across sessions
--   [ ] User can see an alert when the event is reached
--   [ ] User can specify more than one event. 
--   [ ] User can see a countdown timers for each event that has been defined.
+- [ ] O usuário pode salvar o evento para que ele persista entre sessões
+- [ ] O usuário pode ver um alerta quando o evento for atingido
+- [ ] O usuário pode especificar mais de um evento.
+- [ ] O usuário pode ver cronômetros para cada evento que foi definido.
 
-## Useful links and resources
+## Links e Recursos Úteis
 
-- Images of analog tube-based countdown timers can be found 
-[here](https://nixieshop.com/)
+- Imagens de cronômetros de tubo analógico podem ser encontradas 
+[aqui](https://nixieshop.com/)
 - [`clearInterval` MDN](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/clearInterval)
 - [`setInterval` MDN](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval)
 - [Date MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
 
-## Example projects
+## Projetos Exemplo
 
-[Simple Clock/Countdown Timer](https://codepen.io/karlo-stekovic/pen/OajKVK)
-[Countdown Timer built with React](https://www.florin-pop.com/blog/2019/05/countdown-built-with-react/)
+[Cronômetro/Temporizador Simples](https://codepen.io/karlo-stekovic/pen/OajKVK)
+[Contagem Regressiva feita com React](https://www.florin-pop.com/blog/2019/05/countdown-built-with-react/)
