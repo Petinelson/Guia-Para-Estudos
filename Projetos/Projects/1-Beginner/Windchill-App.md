@@ -1,30 +1,30 @@
-# Windchill
+# Sensação Térmica
 
-**Tier:** 1-Beginner
+**Nível:** 1-Iniciante
 
-Windchill combines the actual temperature with the wind speed to calculate
-the windchill factor, or what the perceived temperature is versus the actual
-temperature.
+A sensação térmica combina a temperatura real com a velocidade do vento para calcular
+o fator de sensação térmica ou qual é a temperatura percebida versus a temperatura
+real.
 
-## User Stories
+## Histórias do Usuário
 
--   [ ] User can select the measurement system calculations will be performed in - Metric or English
--   [ ] User can enter the actual temperature and the wind speed
--   [ ] User can press the `Calculate` button to display the wind chill
--   [ ] User will receive an error message when `Calculate` is clicked if data values are not entered
+-   [ ] O usuário pode selecionar o sistema de medição em que os cálculos serão realizados - Métrico ou Inglês
+-   [ ] O usuário pode inserir a temperatura real e a velocidade do vento
+-   [ ] O usuário pode pressionar o botão `Calcular` para exibir a sensação térmica
+-   [ ] O usuário receberá uma mensagem de erro quando `Calcular` for clicado se os valores dos dados não forem inseridos
 
-## Bonus features
+## Funcionalidades Extras
 
--   [ ] User will receive an error message when `Calculate` is clicked if the resulting wind chill factor is greater than or equal to the actual temperature. Since this signifies an internal error in the calculation you may also satisfy this requirement using an assertion
--   [ ] User will be prompted to enter new data values if `Calculate` is pressed without first changing at least one of the input fields
--   [ ] User will see an updated wind chill factor whenever new actual temperature or wind speed values are entered, without being required to click the `Calculate` button
+-   [ ] O usuário receberá uma mensagem de erro quando `Calcular` for clicado se o fator de sensação térmica resultante for maior ou igual à temperatura real. Como isso indica um erro interno no cálculo, você também pode satisfazer esse requisito usando uma assertiva
+-   [ ] O usuário será solicitado a inserir novos valores de dados se `Calcular` for pressionado sem antes alterar pelo menos um dos campos de entrada
+-   [ ] O usuário verá um fator de sensação térmica atualizado sempre que novos valores de temperatura real ou velocidade do vento forem inseridos, sem a necessidade de clicar no botão `Calcular`
 
-## Useful links and resources
+## Links e Recursos Úteis
 
--   [Wikipedia Wind Chill](https://en.wikipedia.org/wiki/Wind_chill)
--   [JavaScript Assert](https://developer.mozilla.org/en-US/docs/Web/API/console/assert)
+-   [Sensação Térmica no Wikipedia](https://en.wikipedia.org/wiki/Wind_chill)
+-   [JavaScript Assert](https://developer.mozilla.org/pt-BR/docs/Web/API/console/assert)
 
-## Example projects
+## Projetos Exemplo
 
-[Wind Chill Calculator](http://www.jsmadeeasy.com/javascripts/Calculators/Wind%20Chill%20Calculator/index.htm)
-[Svelte Wind Chill Index by Gabriele Corti](https://codepen.io/borntofrappe/pen/WNNrrJg)
+[Calculadora de Sensação Térmica](http://www.jsmadeeasy.com/javascripts/Calculators/Wind%20Chill%20Calculator/index.htm)
+[Índice de Sensação Térmica em Svelte por Gabriele Corti](https://codepen.io/borntofrappe/pen/WNNrrJg)
