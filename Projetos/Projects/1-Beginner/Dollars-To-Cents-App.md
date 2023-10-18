@@ -1,29 +1,28 @@
-# Dollars To Cents
+# Dólares Para Centavos
 
-**Tier:** 1-Beginner
+**Nível:** 1-Iniciante
 
-Converting dollars to cents would enable you to practice your fundamental knowledge of programming. Loops, if conditions and a simple algorithm will be used.
-Your task is to let the user input a dollar value (float), assuming that it can also accept extra cents (ex. $2.75), and convert it into an integer (in this case, if $2.75 = 275). After this, convert into coins with the sub-type of dollars: penny, nickel, dime and quarter. Use an algorithm that would divide the dollar value to the four coin types, and output few coins as possible.
+Converter dólares em centavos permite que você pratique seu conhecimento fundamental de programação. Serão usados loops, condições if e um algoritmo simples. Sua tarefa é permitir que o usuário insira um valor em dólares (float), assumindo que ele também possa aceitar centavos extras (ex. $2.75), e convertê-lo em um valor inteiro (neste caso, se $2.75 = 275). Depois disso, converta em moedas com o subtipo de dólares: penny (centavo), nickel (moeda de 5 centavos), dime (moeda de 10 centavos) e quarter (moeda de 25 centavos). Use um algoritmo que divida o valor do dólar nos quatro tipos de moedas e produza o menor número de moedas possível.
 
-The challenge: Try this without using any frameworks.
+O desafio: Tente fazer isso sem usar nenhum framework.
 
-(EX. If you have $0.58, I would have 4 coins: 2 quarters, 0 dimes, 1 nickel and 3 pennies)
+(EX. Se você tem $0.58, eu teria 4 moedas: 2 quarters, 0 dimes, 1 nickel e 3 pennies)
 
-## User Stories
+## Histórias do Usuário
 
--   [ ] User can enter a dollar value
--   [ ] User can see the total cents from the converted dollar value
+- [ ] Usuário pode inserir um valor em dólares
+- [ ] Usuário pode ver o total de centavos do valor em dólares convertido
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User can see how many were pennies, nickels, quarters and dimes from the total cents
+- [ ] Usuário pode ver quantos foram pennies, nickels, quarters e dimes do total de centavos
 
-## Useful links and resources
+## Links e Recursos Úteis
 
--   [Math functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
--   [Loops and iterations](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)
--   [Money values in JavaScript](https://timleland.com/money-in-javascript/)
+- [Funções matemáticas](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math)
+- [Loops e iterações](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Loops_and_iteration)
+- [Valores monetários em JavaScript](https://timleland.com/money-in-javascript/)
 
-## Example projects
+## Projetos Exemplo
 
--   [Dollars to cents converter](https://github.com/LimonJuice322/Dollars-to-cents-converter)
+- [Conversor de Dólares para Centavos](https://github.com/LimonJuice322/Dollars-to-cents-converter)
