@@ -1,34 +1,34 @@
-# Your First DB App
+# Seu Primeiro App com BD
 
-**Tier:** 1-Beginner
+**Nível:** 1-Iniciante
 
-Understanding database concepts and how to use them in your applications is
-knowledge all developers need to acquire. The objective of Your First DB App
-is to provide a gentle introduction to database concepts and learning one
-use case for databases in a frontend app.
+Entender os conceitos de banco de dados e como usá-los em suas aplicações é
+um conhecimento que todos os desenvolvedores precisam adquirir. O objetivo do Seu Primeiro App com BD
+é fornecer uma introdução suave aos conceitos de banco de dados e aprender um
+caso de uso para bancos de dados em um aplicativo frontend.
 
-So, did you know that modern browsers have a database management system
-built into them? IndexedDB is built into most modern browsers and provides
-developers with basic database features, transaction support, and client-side
-cross-session persistance.
+Sabia que os navegadores modernos possuem um sistema de gerenciamento de banco de dados
+integrado a eles? O IndexedDB está integrado à maioria dos navegadores modernos e fornece aos
+desenvolvedores recursos básicos de banco de dados, suporte a transações e persistência entre sessões no lado do cliente.
 
-### Requirements & Constraints
+### Requisitos & Restrições
 
-- The primary use case for a browser based database is to maintain state or
-status information that needs to persist across sessions, or as a work area
-for temporary data. For example, data retrieved from a server that must be
-reformatted or cleansed before it's presented to the user.
+- O principal caso de uso para um banco de dados baseado em navegador é manter um estado ou
+informações de status que precisam persistir entre sessões, ou como uma área de trabalho
+para dados temporários. Por exemplo, dados recuperados de um servidor que devem ser
+reformatados ou limpos antes de serem apresentados ao usuário.
 
-- It is important to keep in mind that since the client-side browser
-environment cannot be secured you should not maintain any confidential or
-personal identifying information (PII) in a browser based database.
+- É importante ter em mente que, como o ambiente do navegador do lado do cliente
+não pode ser protegido, você não deve manter nenhuma informação confidencial ou
+informação pessoal identificável (PII) em um banco de dados baseado em navegador.
 
-- The following Javascript class is provided with the functionality to allow
-your app to initially populate and clear the database from the browser so you
-can test the query logic you'll be adding. You'll be required to hook up 
-buttons on the web page you build to the `clearDB` and `loadDB` functions, and
-to write your own `queryDB` handler to connect to the `Query DB` button. You'll
-also need to add a `queryAllRows` function to the Customer class.
+- A seguinte classe Javascript é fornecida com a funcionalidade que permite
+que seu aplicativo inicialmente preencha e limpe o banco de dados do navegador para que você
+possa testar a lógica de consulta que adicionará. Será necessário conectar
+botões na página da web que você construir às funções `clearDB` e `loadDB`, e
+escrever seu próprio manipulador `queryDB` para conectar ao botão `Query DB`. Você também
+precisará adicionar uma função `queryAllRows` à classe Customer.
+
 ```js
 class Customer {
   constructor(dbName) {
@@ -136,39 +136,25 @@ const loadDB = () => {
 ```
 
 
-## User Stories
+## Histórias do Usuário
 
--   [ ] User can see a web page containing a control panel containing three
-buttons - 'Load DB', 'Query DB', and 'Clear DB'.
--   [ ] User can see a notification panel where status messages will be posted.
--   [ ] User can see a scrollable log panel where execution details describing 
-the apps operation and interface with the Customer instance will be posted. 
--   [ ] User can see a running history of notification panel messages in the log
-panel.
--   [ ] User can see a scrollable query results area where retrieved customer
-data will be displayed.
--   [ ] User can click the 'Load DB' button to populate the database with data.
-The 'Load DB' button in your UI should be hooked to the `loadDB` event handler
-that's provided. 
--   [ ] User can see a message displayed in the notification panel when the 
-data load operation starts and ends.
--   [ ] User can click the 'Query DB' button to list all customers in the query 
-results area. The 'Query DB' button in your UI should be hooked to a `queryDB`
-event handler you will add to the program.
--   [ ] User can see a message in the notification panel when the query starts
-and ends.
--   [ ] User can see a message in the query results area if there are no rows
-to display.
--   [ ] User can click on the 'Clear DB' button to remove all rows from the 
-database. The 'Clear DB' button in your UI should be hooked to the `clearDB` 
-event handler that's provided.
--   [ ] User can see a message in the notification panel when the clear
-operation starts and ends.
+-   [ ] O usuário pode ver uma página da web contendo um painel de controle com três botões - 'Carregar BD', 'Consultar BD' e 'Limpar BD'.
+-   [ ] O usuário pode ver um painel de notificações onde mensagens de status serão exibidas.
+-   [ ] O usuário pode ver um painel de log rolável onde detalhes de execução que descrevem a operação do aplicativo e a interface com a instância do Cliente serão postados.
+-   [ ] O usuário pode ver um histórico contínuo das mensagens do painel de notificações no painel de log.
+-   [ ] O usuário pode ver uma área rolável de resultados de consulta onde os dados do cliente recuperados serão exibidos.
+-   [ ] O usuário pode clicar no botão 'Carregar BD' para preencher o banco de dados com dados. O botão 'Carregar BD' em sua IU deve estar conectado ao manipulador de eventos `loadDB` fornecido.
+-   [ ] O usuário pode ver uma mensagem exibida no painel de notificações quando a operação de carregamento de dados começa e termina.
+-   [ ] O usuário pode clicar no botão 'Consultar BD' para listar todos os clientes na área de resultados da consulta. O botão 'Consultar BD' em sua IU deve estar conectado a um manipulador de eventos `queryDB` que você adicionará ao programa.
+-   [ ] O usuário pode ver uma mensagem no painel de notificações quando a consulta começa e termina.
+-   [ ] O usuário pode ver uma mensagem na área de resultados da consulta se não houver linhas para exibir.
+-   [ ] O usuário pode clicar no botão 'Limpar BD' para remover todas as linhas do banco de dados. O botão 'Limpar BD' em sua IU deve estar conectado ao manipulador de eventos `clearDB` fornecido.
+-   [ ] O usuário pode ver uma mensagem no painel de notificações quando a operação de limpeza começa e termina.
 
-## Bonus features
+## Recursos Adicionais
 
--   [ ] User can see buttons enabled and disabled according to the following
-table.
+-   [ ] O usuário pode ver botões ativados e desativados de acordo com a tabela a seguir.
+
 
     | State               | Load DB  | Query DB | Clear DB |
     |---------------------|----------|----------|----------|
@@ -177,24 +163,19 @@ table.
     | Query DB clicked    | disabled | enabled  | enabled  |
     | Clear DB clicked    | enabled  | enabled  | disabled |
     
--   [ ] User can see additional Customer data fields added to those included
-in the code provided. Developer should add date of last order and total sales
-for the year.
--   [ ] Developer should conduct a retrospection on this project:
-    - What use cases can you see for using IndexedDB in your frontend apps?
-    - What advantages and disadvantages can you see over using a file or 
-    local storage?
-    - In general, what criteria might you use to determine if IndexedDB is right
-    for your app. (Hint: 100% yes or no is not a valid answer).
+-   [ ] O usuário pode ver campos de dados adicionais do Cliente adicionados aos que estão incluídos no código fornecido. O desenvolvedor deve adicionar a data do último pedido e as vendas totais do ano.
+-   [ ] O desenvolvedor deve fazer uma retrospectiva sobre este projeto:
+    - Quais casos de uso você vê para usar o IndexedDB em seus aplicativos frontend?
+    - Quais vantagens e desvantagens você vê em comparação com o uso de um arquivo ou armazenamento local?
+    - Em geral, quais critérios você usaria para determinar se o IndexedDB é adequado para o seu aplicativo. (Dica: 100% sim ou não não é uma resposta válida).
 
+## Links e recursos úteis
 
-## Useful links and resources
+- [Conceitos de IndexedDB (MDN)](http://tinyw.in/7TIr)
+- [Usando IndexedDB (MDN)](http://tinyw.in/w6k0)
+- [API do IndexedDB (MDN)](http://tinyw.in/GqnF)
+- [Suporte de Navegador para IndexedDB](https://caniuse.com/#feat=indexeddb)
 
-- [IndexedDB Concepts (MDN)](http://tinyw.in/7TIr)
-- [Using IndexedDB (MDN)](http://tinyw.in/w6k0)
-- [IndexedDB API (MDN)](http://tinyw.in/GqnF)
-- [IndexedDB Browser Support](https://caniuse.com/#feat=indexeddb)
-
-## Example projects
+## Projetos de exemplo
 
 - N/a
