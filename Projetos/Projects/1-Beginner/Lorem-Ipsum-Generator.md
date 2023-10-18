@@ -1,24 +1,24 @@
-# Lorem Ipsum Generator
+# Gerador de Lorem Ipsum
 
-**Tier:** 1-Beginner
+**Nível:** 1-Iniciante
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-This app should generate passages of lorem ipsum text suitable for use as placeholder copy in web pages, graphics, and more.
+Lorem Ipsum é simplesmente um texto fictício da indústria de impressão e composição.
+Este aplicativo deve gerar trechos de texto lorem ipsum apropriados para uso como texto de preenchimento em páginas da web, gráficos e muito mais.
 
-## User Stories
+## Histórias do Usuário
 
--   [ ] User can type into an input field the number of paragraphs of lorem ipsum to be generated
--   [ ] Use can see the generated paragraphs of lorem ipsum and is able to copy them
+-   [ ] O usuário pode digitar em um campo de entrada o número de parágrafos de lorem ipsum a ser gerado
+-   [ ] O usuário pode ver os parágrafos gerados de lorem ipsum e é capaz de copiá-los
 
-## Trello Board
+## Quadro Trello
 
-You can track your progress by cloning this [Trello Board](https://trello.com/b/T0xA0Glj/lorem-ipsum-generator)
+Você pode acompanhar seu progresso clonando este [Quadro Trello](https://trello.com/b/T0xA0Glj/lorem-ipsum-generator)
 
-## Useful links and resources
+## Links e recursos úteis
 
--   [lorem-ipsum npm package](https://www.npmjs.com/package/lorem-ipsum)
--   [lorem-ipsum CDN](https://www.jsdelivr.com/package/npm/lorem-ipsum)
+-   [pacote npm lorem-ipsum](https://www.npmjs.com/package/lorem-ipsum)
+-   [CDN lorem-ipsum](https://www.jsdelivr.com/package/npm/lorem-ipsum)
 
-## Example projects
+## Projetos exemplo
 
 -   [Lipsum.com](https://www.lipsum.com/)
