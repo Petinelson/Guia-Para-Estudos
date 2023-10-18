@@ -1,26 +1,26 @@
-# Weather App
+# Aplicativo de Clima
 
-**Tier:** 1-Beginner
+**Nível:** 1-Iniciante
 
-A weather application to get the temperature, weather condition and whether it is day or night of a particular city using `accuweather`. A free weather api.
+Um aplicativo de clima para obter a temperatura, condição climática e determinar se é dia ou noite de uma cidade específica usando o `accuweather`. Uma API de clima gratuita.
 
-## User Stories
+## Histórias do Usuário
 
-- [ ] Enter the name of a city into the `input` field.
-- [ ] By pressing enter, the user submits the name of the city which updates the `DOM` with the temperature, weather condition, image of day or night and weather condition icon.
+- [ ] Digite o nome de uma cidade no campo de `input`.
+- [ ] Ao pressionar enter, o usuário submete o nome da cidade que atualiza o `DOM` com a temperatura, condição climática, imagem de dia ou noite e ícone da condição climática.
 
-## Bonus features
+## Recursos Bônus
 
-- [ ] By closing the browser window the city name will be stored in localStorage and when the user returns, the name will be retrieved to make an api call to update the `DOM`.
+- [ ] Ao fechar a janela do navegador, o nome da cidade será armazenado no localStorage e, quando o usuário retornar, o nome será recuperado para fazer uma chamada à API e atualizar o `DOM`.
 
-## Useful links and resources
+## Links e recursos úteis
 
-- [localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
+- [localStorage](https://developer.mozilla.org/pt-BR/docs/Web/API/Window/localStorage)
 - [accuweather](https://developer.accuweather.com/)
 - [axios](https://github.com/axios/axios)
 - [bootstrap](https://getbootstrap.com/)
 
-## Example projects
+## Projetos exemplo
 
-- [Weather App on Codepen](https://codepen.io/tutsplus/pen/gObLaEP) by [George Martsoukos]
-- [Coding A Weather App In Pure JavaScipt](https://www.youtube.com/watch?v=ZPG2wGNj6J4)
+- [Aplicativo de Clima no Codepen](https://codepen.io/tutsplus/pen/gObLaEP) por [George Martsoukos]
+- [Codificando um Aplicativo de Clima em JavaScript Puro](https://www.youtube.com/watch?v=ZPG2wGNj6J4)
