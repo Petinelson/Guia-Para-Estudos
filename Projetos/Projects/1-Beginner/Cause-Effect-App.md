@@ -1,67 +1,49 @@
 # CauseEffect
 
-**Tier:** 1-Beginner
+**Nível:** 1-Iniciante
 
-Patterns are integral to software engineering and represent potentially
-reusable components in program logic. However, patterns aren't used only
-for program logic, they are exist in other domains such as DevOps, user
-support, and the user interface.
+Padrões são fundamentais para a engenharia de software e representam componentes potencialmente reutilizáveis na lógica do programa. No entanto, padrões não são usados apenas para lógica de programa, eles existem em outros domínios, como DevOps, suporte ao usuário e na interface do usuário.
 
-A common user interface pattern is to summarize data in one section of a page
-that consists of some type of list (like text, images, or icons) that describes
-or categorizes a set of data. When a list item is clicked, the detailed data
-behind it is displayed in an adjacent pane on the page.
+Um padrão comum de interface do usuário é resumir dados em uma seção de uma página que consiste em algum tipo de lista (como texto, imagens ou ícones) que descreve ou categoriza um conjunto de dados. Quando um item da lista é clicado, os dados detalhados por trás dele são exibidos em um painel adjacente na página.
 
-For example, on a real estate site clicking an address in a list of properties
-for sale displays the details about the property in another part of the
-page.
+Por exemplo, em um site imobiliário ao clicar em um endereço em uma lista de propriedades à venda, são exibidos os detalhes sobre a propriedade em outra parte da página.
 
-This challenge requires that the developer implementing it follow these
-constraints:
+Este desafio exige que o desenvolvedor que o implemente siga estas restrições:
 
--   You are responsible for creating your own test data. Use a hardcoded
-    Javascript object to define your test data (see below).
--   Use only native HTML/CSS/Javascript in your first version of this app
--   You may use other packages or libraries when implementing subsequent
-    versions.
+- Você é responsável por criar seus próprios dados de teste. Use um objeto Javascript hardcoded para definir seus dados de teste (veja abaixo).
+- Use apenas HTML/CSS/Javascript nativo na sua primeira versão deste app.
+- Você pode usar outros pacotes ou bibliotecas ao implementar versões subsequentes.
 
-## User Stories
+## Histórias do Usuário
 
--   [ ] User can see a list of person names arranged vertically in a summary
-        pane on the page.
--   [ ] User can click on a name in the list to update an adjacent pane on the
-        page with that individuals full name, address, telephone number, and
-        birthday.
--   [ ] User can click on another name in the list to refresh the detail pane
-        with that individuals information.
+- [ ] O usuário pode ver uma lista de nomes de pessoas organizados verticalmente em um painel de resumo na página.
+- [ ] O usuário pode clicar em um nome na lista para atualizar um painel adjacente na página com o nome completo daquela pessoa, endereço, número de telefone e data de nascimento.
+- [ ] O usuário pode clicar em outro nome na lista para atualizar o painel de detalhes com as informações dessa pessoa.
 
-## Bonus features
+## Funcionalidades Bônus
 
--   [ ] User can see the person name in the summary pane highlighted when the
-        cursor is hovered over it.
--   [ ] User can see the person name in the summary pane highlighted
-        using a selection effect (color, size, etc.) when it is clicked. This is a
-        different effect from the hover effect
--   [ ] User can see the selection effect removed from a name in the summary
-        list when a new name is clicked.
+- [ ] O usuário pode ver o nome da pessoa no painel de resumo destacado quando o cursor passa sobre ele.
+- [ ] O usuário pode ver o nome da pessoa no painel de resumo destacado usando um efeito de seleção (cor, tamanho, etc.) quando ele é clicado. Este é um efeito diferente do efeito de passar o cursor.
+- [ ] O usuário pode ver o efeito de seleção removido de um nome no painel de resumo quando um novo nome é clicado.
 
-## Useful links and resources
+## Links e Recursos Úteis
 
--   [DOM Events](https://developer.mozilla.org/en-US/docs/Web/API/Event)
--   Consider defining your test data in a JavaScript object having a format
-    such as this:
+- [Eventos DOM](https://developer.mozilla.org/pt-BR/docs/Web/API/Event)
+- Considere definir seus dados de teste em um objeto JavaScript tendo um formato como este:
+
+
 
 ```
-const people = [
-  {name: "...", street: "...", city: "...", state: "...", country: "...", telephone: "...", birthday: "..."},
-  .
-  .
-  .
-  {name: "...", street: "...", city: "...", state: "...", country: "...", telephone: "...", birthday: "..."}
+{nome: "...", rua: "...", cidade: "...", estado: "...", pais: "...", telefone: "...", aniversario: "..."},
+.
+.
+.
+{nome: "...", rua: "...", cidade: "...", estado: "...", pais: "...", telefone: "...", aniversario: "..."}
 ];
 ```
 
-## Example projects
 
-Checkout the interaction between the Navigation items on the left hand side
-of the page and the main body of the page on the [Javascript MDN site](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+## Projetos Exemplo
+
+Confira a interação entre os itens de Navegação no lado esquerdo da página e o corpo principal da página no [site Javascript MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript).
+
