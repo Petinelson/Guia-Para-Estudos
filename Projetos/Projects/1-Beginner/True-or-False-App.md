@@ -1,36 +1,36 @@
-# TrueOrFalse
+# VerdadeiroOuFalso
 
-**Tier:** 1-Beginner
+**Nível:** 1-Iniciante
 
-Something every developer needs to clearly understand is the result of
-conditional expressions like `x === y`. This is a bit more involved for
-Javascript developers who must also understand the concept of _truthiness_.
+Algo que todo desenvolvedor precisa entender claramente é o resultado de
+expressões condicionais como `x === y`. Isso é um pouco mais complexo para
+desenvolvedores Javascript, que também devem entender o conceito de _veracidade_ (em inglês, _truthiness_).
 
-TrueOrFalse helps by displaying the result when a conditional operator is
-applied to two values. Users can use this to test their knowledge and
-explore edge cases.
+VerdadeiroOuFalso ajuda exibindo o resultado quando um operador condicional é
+aplicado a dois valores. Os usuários podem usar isso para testar seus conhecimentos e
+explorar casos extremos.
 
-The two values and the conditional operator are entered by the user and the
-result to be displayed will be TRUE or FALSE. The implementation must not use
-the `eval()` function to generate the result of the conditional.
+Os dois valores e o operador condicional são inseridos pelo usuário e o
+resultado a ser exibido será VERDADEIRO ou FALSO. A implementação não deve usar
+a função `eval()` para gerar o resultado do condicional.
 
-## User Stories
+## Histórias do Usuário
 
--   [ ] User can enter two strings to be compared
--   [ ] User can enter a valid Javascript conditional operator to be used to compare the two strings
--   [ ] User can see the result of the conditional as TRUE or FALSE
--   [ ] User can see a warning if the input strings or conditional operator that has been entered is not valid
+-   [ ] O usuário pode inserir duas strings a serem comparadas
+-   [ ] O usuário pode inserir um operador condicional Javascript válido a ser usado para comparar as duas strings
+-   [ ] O usuário pode ver o resultado do condicional como VERDADEIRO ou FALSO
+-   [ ] O usuário pode ver um aviso se as strings inseridas ou o operador condicional não forem válidos
 
-## Bonus features
+## Recursos Bônus
 
--   [ ] User can specify the type of each of the two strings so numbers can be compared to strings, strings to booleans, etc
+-   [ ] O usuário pode especificar o tipo de cada uma das duas strings para que números possam ser comparados a strings, strings a booleanos, etc
 
-## Useful links and resources
+## Links e recursos úteis
 
--   [Comparison Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators)
--   [Conditional Javascript for Experts](https://hackernoon.com/conditional-javascript-for-experts-d2aa456ef67c)
--   [Truthy and Falsy: When all is not equal in Javascript](https://www.sitepoint.com/javascript-truthy-falsy/)
+-   [Operadores de Comparação](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Comparison_Operators)
+-   [Javascript Condicional para Especialistas](https://hackernoon.com/conditional-javascript-for-experts-d2aa456ef67c) (link em inglês)
+-   [Verdadeiro e Falso: Quando nem tudo é igual em Javascript](https://www.sitepoint.com/javascript-truthy-falsy/) (link em inglês)
 
-## Example projects
+## Projetos exemplo
 
-N/A
+N/D
