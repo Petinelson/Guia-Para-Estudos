@@ -1,51 +1,37 @@
-# Recipe
+# Receita
 
-**Tier:** 1-Beginner
+**Nível:** 1-Iniciante
 
-You might not have realized this, but recipe's are nothing more than culinary
-algorithms. Like programs, recipes are a series of imperative steps which,
-if followed correctly, result in a tasty dish.
+Talvez você não tenha percebido isso, mas receitas são nada mais do que algoritmos culinários. Como programas, receitas são uma série de etapas imperativas que, se seguidas corretamente, resultam em um prato saboroso.
 
-The objective of the Recipe app is to help the user manage recipes in a way
-that will make them easy to follow. 
+O objetivo do aplicativo Receita é ajudar o usuário a gerenciar receitas de uma maneira que as torne fáceis de seguir.
 
-### Constraints
+### Restrições
 
-- For the initial version of this app the recipe data may be encoded as a
-JSON file. After implementing the initial version of this app you may
-expand on this to maintain recipes in a file or database.
+- Para a versão inicial deste aplicativo, os dados da receita podem ser codificados como um arquivo JSON. Após implementar a versão inicial deste aplicativo, você pode expandir isso para manter receitas em um arquivo ou banco de dados.
 
-## User Stories
+## Histórias do Usuário
 
--   [ ] User can see a list of recipe titles
--   [ ] User can click a recipe title to display a recipe card containing the
-recipe title, meal type (breakfast, lunch, supper, or snack), number of people
-it serves, its difficulty level (beginner, intermediate, advanced), the list
-of ingredients (including their amounts), and the preparation steps.
--   [ ] User click a new recipe title to replace the current card with a new
-recipe.
+-   [ ] O usuário pode ver uma lista de títulos de receitas
+-   [ ] O usuário pode clicar em um título de receita para exibir um cartão de receita contendo o título da receita, tipo de refeição (café da manhã, almoço, jantar ou lanche), número de pessoas que serve, seu nível de dificuldade (iniciante, intermediário, avançado), a lista de ingredientes (incluindo suas quantidades) e os passos de preparação.
+-   [ ] O usuário pode clicar em um novo título de receita para substituir o cartão atual por uma nova receita.
 
-## Bonus features
+## Funcionalidades Extras
 
--   [ ] User can see a photo showing what the item looks like after it has
-been prepared.
--   [ ] User can search for a recipe not in the list of recipe titles by
-entering the meal name into a search box and clicking a 'Search' button. Any
-open source recipe API may be used as the source for recipes (see The MealDB
-below).
--   [ ] User can see a list of recipes matching the search terms
--   [ ] User can click the name of the recipe to display its recipe card.
--   [ ] User can see a warning message if no matching recipe was found.
--   [ ] User can click a 'Save' button on the cards for recipes located through
-the API to save a copy to this apps recipe file or database.
+-   [ ] O usuário pode ver uma foto mostrando como o item fica após ter sido preparado.
+-   [ ] O usuário pode buscar por uma receita não na lista de títulos de receita, inserindo o nome da refeição em uma caixa de busca e clicando em um botão 'Pesquisar'. Qualquer API de receita de código aberto pode ser usada como fonte para receitas (veja The MealDB abaixo).
+-   [ ] O usuário pode ver uma lista de receitas que correspondem aos termos de busca.
+-   [ ] O usuário pode clicar no nome da receita para exibir seu cartão de receita.
+-   [ ] O usuário pode ver uma mensagem de aviso se nenhuma receita correspondente foi encontrada.
+-   [ ] O usuário pode clicar em um botão 'Salvar' nos cartões para receitas localizadas através da API para salvar uma cópia no arquivo de receitas deste aplicativo ou no banco de dados.
 
-## Useful links and resources
+## Links e recursos úteis
 
-- [Using Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+- [Usando Fetch](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API/Using_Fetch)
 - [Axios](https://www.npmjs.com/package/axios)
-- [The MealDB API](https://www.themealdb.com/api.php) 
+- [API The MealDB](https://www.themealdb.com/api.php)
 
-## Example projects
+## Projetos Exemplo
 
-- [Recipe Box - a Free Code Camp Project (FCC)](https://codepen.io/eddyerburgh/pen/xVeJvB)
-- [React Recipe Box](https://codepen.io/inkblotty/pen/oxWRme)
+- [Caixa de Receitas - um Projeto do Free Code Camp (FCC)](https://codepen.io/eddyerburgh/pen/xVeJvB)
+- [Caixa de Receitas em React](https://codepen.io/inkblotty/pen/oxWRme)
