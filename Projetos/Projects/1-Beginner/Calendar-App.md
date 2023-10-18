@@ -1,34 +1,34 @@
-# My calendar
+# Meu Calendário
 
-**Tier:** 3-Advanced
+**Nível:** 3-Avançado
 
-Build a calendar application to organize you daily life. Add functionality to add events and reminder.
-Style your own calendar according to your requirement
+Construa um aplicativo de calendário para organizar sua vida diária. Adicione funcionalidades para adicionar eventos e lembretes.
+Estilize seu próprio calendário de acordo com sua necessidade.
 
-- Understanding how calendar application works
-- Only basic understanding of HTML/CSS and JS is required
-- Working on more features help you learning advance concepts of JS
+- Entendendo como o aplicativo de calendário funciona
+- É necessário apenas um entendimento básico de HTML/CSS e JS
+- Trabalhar em mais funcionalidades ajuda a aprender conceitos avançados de JS
 
-## User Stories
+## Histórias do Usuário
 
-- [ ] User can create event
-- [ ] User can edit event
-- [ ] User can delete event
+- [ ] O usuário pode criar um evento
+- [ ] O usuário pode editar um evento
+- [ ] O usuário pode excluir um evento
 
-## Bonus features
+## Funcionalidades Bônus
 
-- [ ] User can drag events between dates
-- [ ] User can set reminder for a event
-- [ ] Change theme (light/dark) (play with css), play with css 😄
-- [ ] Store data locally so that events does not get deleted when server is restarted
+- [ ] O usuário pode arrastar eventos entre datas
+- [ ] O usuário pode definir um lembrete para um evento
+- [ ] Alterar tema (claro/escuro) (brinque com css), brinque com css 😄
+- [ ] Armazenar dados localmente para que os eventos não sejam excluídos quando o servidor for reiniciado
 
-## Useful links and resources
+## Links e recursos úteis
 
-- [Local Storage](https://blog.logrocket.com/the-complete-guide-to-using-localstorage-in-javascript-apps-ba44edb53a36/)
-- [MDN](https://developer.mozilla.org/en-US/)
-- [Design Ideas](https://dribbble.com/tags/calendar)
+- [Armazenamento Local](https://blog.logrocket.com/the-complete-guide-to-using-localstorage-in-javascript-apps-ba44edb53a36/)
+- [MDN](https://developer.mozilla.org/pt-BR/)
+- [Ideias de Design](https://dribbble.com/tags/calendar)
 
-## Example projects
+## Projetos Exemplo
 
-- [Simple calendar](https://medium.com/@nitinpatel_20236/challenge-of-building-a-calendar-with-pure-javascript-a86f1303267d)
+- [Calendário Simples](https://medium.com/@nitinpatel_20236/challenge-of-building-a-calendar-with-pure-javascript-a86f1303267d)
 - [eCalendar](https://github.com/muzhaqi16/eCalendar)
