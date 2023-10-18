@@ -1,27 +1,27 @@
-# Stopwatch App
+# Aplicativo Cronômetro
 
-**Tier:** 1-Beginner
+**Nível:** 1-Iniciante
 
-A stopwatch helps you track the time you spent on activities.
+Um cronômetro ajuda você a rastrear o tempo gasto em atividades.
 
-## User Stories
+## Histórias do Usuário
 
--   [ ] User can `start` a clock
--   [ ] User can `stop` the clock
--   [ ] When the clock is `stopped` the user can click `start` again and the clock will continue counting up
--   [ ] User can `restart` the clock
+-   [ ] O usuário pode `iniciar` um cronômetro
+-   [ ] O usuário pode `parar` o cronômetro
+-   [ ] Quando o cronômetro estiver `parado`, o usuário pode clicar em `iniciar` novamente e o cronômetro continuará contando
+-   [ ] O usuário pode `reiniciar` o cronômetro
 
-## Bonus features
+## Funcionalidades Extras
 
--   [ ] User can create `laps` - these will be displayed on the screen
--   [ ] User can clear all the laps
+-   [ ] O usuário pode criar `voltas` - elas serão exibidas na tela
+-   [ ] O usuário pode limpar todas as voltas
 
-## Useful links and resources
+## Links e recursos úteis
 
 -   [setInterval](https://www.w3schools.com/jsref/met_win_setinterval.asp)
 
-## Example projects
+## Projetos Exemplo
 
--   [Stopwatch by Hilo](https://codepen.io/hilotacker/pen/ONZWoX)
--   [Stopwatch by Billy Brown](https://codepen.io/_Billy_Brown/pen/dbJeh)
--   [Svelte Stopwatch by Gabriele Corti](https://codepen.io/borntofrappe/pen/KKKPZZg)
+-   [Cronômetro por Hilo](https://codepen.io/hilotacker/pen/ONZWoX)
+-   [Cronômetro por Billy Brown](https://codepen.io/_Billy_Brown/pen/dbJeh)
+-   [Cronômetro em Svelte por Gabriele Corti](https://codepen.io/borntofrappe/pen/KKKPZZg)
