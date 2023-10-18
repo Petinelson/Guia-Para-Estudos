@@ -1,35 +1,29 @@
 # FlipImage
 
-**Tier:** 1-Beginner
+**Nível:** 1-Iniciante
 
-It's important for Web Developers to understand the basics of manipulating
-images since rich web applications rely on images to add value to the user
-interface and user experience (UI/UX).
+É importante para Desenvolvedores Web entenderem os fundamentos da manipulação de imagens, pois aplicações web ricas dependem de imagens para agregar valor à interface do usuário e à experiência do usuário (UI/UX).
 
-FlipImage explores one aspect of image manipulation - image rotation. This
-app displays a square pane containing a single image presented in a 2x2
-matrix. Using a set of up, down, left, and right arrows adjacent to each
-of the images the user may flip them vertically or horizontally.
+FlipImage explora um aspecto da manipulação de imagem - rotação de imagem. Este aplicativo exibe um painel quadrado contendo uma única imagem apresentada em uma matriz 2x2. Usando um conjunto de setas para cima, para baixo, para a esquerda e para a direita adjacentes a cada uma das imagens, o usuário pode virá-las vertical ou horizontalmente.
 
-You must only use native HTML, CSS, and Javascript to implement this app.
-Image packages and libraries are not allowed.
+Você deve usar apenas HTML, CSS e Javascript nativos para implementar este aplicativo. Pacotes e bibliotecas de imagem não são permitidos.
 
-## User Stories
+## Histórias do usuário
 
--   [ ] User can see a pane containing a single image repeated in a 2x2 matrix
--   [ ] User can flip any one of the images vertically or horizontally using a set of up, down, left, and right arrows next to the image
+-   [ ] O usuário pode ver um painel contendo uma única imagem repetida em uma matriz 2x2
+-   [ ] O usuário pode virar qualquer uma das imagens verticalmente ou horizontalmente usando um conjunto de setas para cima, para baixo, para a esquerda e para a direita ao lado da imagem
 
-## Bonus features
+## Recursos adicionais
 
--   [ ] User can change the default image by entering the URL of a different image in an input field
--   [ ] User can display the new image by clicking a 'Display' button next to the input field
--   [ ] User can see an error message if the new images URL is not found
+-   [ ] O usuário pode alterar a imagem padrão inserindo a URL de uma imagem diferente em um campo de entrada
+-   [ ] O usuário pode exibir a nova imagem clicando em um botão 'Exibir' ao lado do campo de entrada
+-   [ ] O usuário pode ver uma mensagem de erro se a URL da nova imagem não for encontrada
 
-## Useful links and resources
+## Links e recursos úteis
 
--   [How to Flip an Image](https://www.w3schools.com/howto/howto_css_flip_image.asp)
--   [Create a CSS Flipping Animatin](https://davidwalsh.name/css-flip)
+-   [Como Virar uma Imagem](https://www.w3schools.com/howto/howto_css_flip_image.asp)
+-   [Criar uma Animação de Virada em CSS](https://davidwalsh.name/css-flip)
 
-## Example projects
+## Projetos de exemplo
 
-[Image Effects by @bennettfeely](https://codepen.io/seyedi/pen/gvqYQv)
+[Efeitos de Imagem por @bennettfeely](https://codepen.io/seyedi/pen/gvqYQv)
