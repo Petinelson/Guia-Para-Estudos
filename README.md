@@ -38,6 +38,7 @@ Estes recursos são extremamente úteis, tanto para quem está começando quanto
   * [JavaSctipt - Online](https://www.programiz.com/javascript/online-compiler/)
   * [PHP - Online](https://www.programiz.com/php/online-compiler/)
   * [React - Online](https://playcode.io/react)
+  * [One Compiler](https://onecompiler.com/)
 
 ## Indicações:
   * [GitHub - Sindresorhus](https://github.com/sindresorhus/awesome)
