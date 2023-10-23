@@ -3,6 +3,12 @@
 No intuito de complementar e enriquecer o aprendizado em tecnologia, foram selecionados alguns links essenciais para guiá-lo em sua jornada de conhecimento. Estes links incluem tanto sites de referência na área de tecnologia quanto repositórios no GitHub repletos de livros, projetos web e outras ferramentas incríveis.
 Estes recursos são extremamente úteis, tanto para quem está começando quanto para aqueles que já têm alguma experiência, mas desejam se aprofundar ainda mais em tópicos específicos. A tecnologia está sempre em evolução, e estar constantemente atualizado é uma das chaves para o sucesso na nossa área.
 
+**Lembrem-se:** o aprendizado é uma jornada contínua, e estes recursos são apenas ferramentas para ajudar você a navegar por ela com mais segurança e confiança.
+
+### Reflexão:
+>"Em cada desafio, há crescimento esperando.
+>Aprender é a chama que nunca se apaga.
+>Coragem e determinação moldam destinos."
 
 ## Links:
   1. [Livros - sessão 1](./Livros/README.md)
@@ -52,12 +58,3 @@ Estes recursos são extremamente úteis, tanto para quem está começando quanto
   * [Site - Free-Dev](https://free-for.dev/#/)
   * [Site - Programiz](https://www.programiz.com/)
   * [Lista de Gits](https://gist.github.com/picwellwisher12pk/873d2c8d82a6aed19fa259d81b0578f2)
-
-    
-  
-**Lembrem-se:** o aprendizado é uma jornada contínua, e estes recursos são apenas ferramentas para ajudar você a navegar por ela com mais segurança e confiança.
-
-### Reflexão:
->"Em cada desafio, há crescimento esperando.
->Aprender é a chama que nunca se apaga.
->Coragem e determinação moldam destinos."
