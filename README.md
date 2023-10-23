@@ -13,15 +13,31 @@ Estes recursos são extremamente úteis, tanto para quem está começando quanto
 
 ## Aprendizados:
   * [HTML](https://www.w3schools.com/html/)
-  * [HTML - Tutorial](https://dotnettutorials.net/course/html-tutorials/)
+  * [HTML - Tutorial 1](https://dotnettutorials.net/course/html-tutorials/)
+  * [HTML - Tutorial 2](https://www.programiz.com/html)
   * [CSS](https://www.w3schools.com/css/default.asp)
-  * [CSS - tricks](https://css-tricks.com/archives/1)
-  * [CSS - layouts](https://layout.bradwoods.io/)
+  * [CSS - Tricks](https://css-tricks.com/archives/1)
+  * [CSS - Layouts](https://layout.bradwoods.io/)
   * [JavaScript](https://www.w3schools.com/js/default.asp)
   * [JavaScript - Documentação](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+  * [JavaScript - Tutorial](https://www.programiz.com/javascript)
   * [SQL](https://www.w3schools.com/sql/default.asp)
-  * [SQL - interativo](https://sqlbolt.com/)
-  * [SQL - guia](https://www.sql-easy.com/pt/)
+  * [SQL - Interativo](https://sqlbolt.com/)
+  * [SQL - Guia](https://www.sql-easy.com/pt/)
+  * [SQL - Tutorial](https://www.programiz.com/sql)
+  * [UI / UX](https://hackdesign.org/)
+
+## Ferramentas online:
+  * [Portugol - WebStudio](https://dgadelha.github.io/Portugol-Webstudio/)
+  * [CodePen](https://codepen.io/)
+  * [Draw IO](https://www.drawio.com/)
+  * [Python - Online](https://www.programiz.com/python-programming/online-compiler/)
+  * [SQL - Online](https://www.programiz.com/sql/online-compiler/)
+  * [HTML - Online](https://www.programiz.com/html/online-compiler/)
+  * [Java - Online](https://www.programiz.com/java-programming/online-compiler/)
+  * [JavaSctipt - Online](https://www.programiz.com/javascript/online-compiler/)
+  * [PHP - Online](https://www.programiz.com/php/online-compiler/)
+  * [React - Online](https://playcode.io/react)
 
 ## Indicações:
   * [GitHub - Sindresorhus](https://github.com/sindresorhus/awesome)
@@ -33,6 +49,7 @@ Estes recursos são extremamente úteis, tanto para quem está começando quanto
   * [GitHub - Kassiano](https://github.com/kassiano)
   * [GitHub - Fernando Leonid](https://github.com/fernandoleonid)
   * [Site - Free-Dev](https://free-for.dev/#/)
+  * [Site - Programiz](https://www.programiz.com/)
   * [Lista de Gits](https://gist.github.com/picwellwisher12pk/873d2c8d82a6aed19fa259d81b0578f2)
 
     
