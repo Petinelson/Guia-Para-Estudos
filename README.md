@@ -24,6 +24,7 @@ Estes recursos são extremamente úteis, tanto para quem está começando quanto
   * [CSS](https://www.w3schools.com/css/default.asp)
   * [CSS - Tricks](https://css-tricks.com/archives/1)
   * [CSS - Layouts](https://layout.bradwoods.io/)
+  * [CSS - Layouts GRID](https://cssgrid-generator.netlify.app/)
   * [JavaScript](https://www.w3schools.com/js/default.asp)
   * [JavaScript - Documentação](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
   * [JavaScript - Tutorial](https://www.programiz.com/javascript)
