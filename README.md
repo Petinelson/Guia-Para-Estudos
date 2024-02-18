@@ -33,7 +33,7 @@ Estes recursos são extremamente úteis, tanto para quem está começando quanto
   * [SQL - Guia](https://www.sql-easy.com/pt/)
   * [SQL - Tutorial](https://www.programiz.com/sql)
   * [UI / UX](https://hackdesign.org/)
-  * [Linguagem Makedown](https://markdown.net.br/sintaxe-estendida/)
+  * [Linguagem Markdown](https://markdown.net.br/sintaxe-estendida/)
 
 ## Ferramentas online:
   * [Portugol - WebStudio](https://dgadelha.github.io/Portugol-Webstudio/)
