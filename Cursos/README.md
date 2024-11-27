@@ -10,7 +10,7 @@
 * [Delphi](#delphi)
 * [Docker](#docker)
 * [Elixir](#elixir)
-* [Flask-(Python)](#Flask-(Python))
+* [Flask (Python)](#flask-python)
 * [Flutter](#flutter)
 * [Git](#git)
 * [Go](#go)
