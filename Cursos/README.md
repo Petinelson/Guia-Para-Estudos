@@ -10,6 +10,7 @@
 * [Delphi](#delphi)
 * [Docker](#docker)
 * [Elixir](#elixir)
+* [Flask-(Python)](#Flask-(Python))
 * [Flutter](#flutter)
 * [Git](#git)
 * [Go](#go)
@@ -116,6 +117,9 @@
 * [Curso de Elixir](https://www.youtube.com/playlist?list=PLydk1OOOmzo8VBeU334j4R4WvSByRNpXR) - ELLY ACADEMY
 * [Curso de Elixir Alquimia](https://www.youtube.com/playlist?list=PLv3nyCBtlWP8I9rknIrfcJWrO05yEzknD) - Alquimia Stone
 
+### Flask-(Python)
+
+* [Flask - Python Web](https://www.youtube.com/playlist?list=PLKIusnzBtaELSrEBEnXTN07siLHmX5rm3) - Profa. Alba Lopes
 
 ### Flutter
 
