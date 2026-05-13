@@ -188,7 +188,7 @@
 * [Introdução ao Fortran90](https://www.cenapad.unicamp.br/treinamentos/apostilas/apostila_fortran90.pdf) - Unicamp/ Cenapad - SP (PDF)
 
 ### Flask
-* [Flask De A A Z Crie Aplicacoes Web Mais Completas E Robustas] (https://drive.google.com/drive/folders/1-gQRbL__by7k34GX9MN1wZxqCpvQbf2D) - ESTA NO DRIVE
+* [Flask De A A Z Crie Aplicacoes Web Mais Completas E Robustas](https://drive.google.com/drive/folders/1-gQRbL__by7k34GX9MN1wZxqCpvQbf2D)
 
 ### Fundamentos Matemáticos Computacionais
 
